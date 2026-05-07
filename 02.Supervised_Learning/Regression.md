@@ -10,7 +10,7 @@ Regression is a supervised learning task aimed at predicting a continuous variab
     *   **$x$ (Inputs):** Independent, predictor, or explanatory variables.
 *   **Residual ($\epsilon$):** The difference between the true observed value ($y$) and the predicted value ($\hat{y}$). Formula: $\epsilon = y - \hat{y}$.
 *   **Ordinary Least Squares (OLS):** The standard training methodology used to find the optimal parameters ($\beta$) by minimizing the Sum of Squared Errors (SSE).
-※ OLS is the fundamental mathematical optimization algorithm used to train standard linear regression models. Its goal is to draw the "best-fitting line" through your data points
+<p>※ OLS is the fundamental mathematical optimization algorithm used to train standard linear regression models. Its goal is to draw the "best-fitting line" through your data points
 
 ## Two Different Scopes of Regression
 Regression models use the same mathematical foundation but can be categorized based on the primary objective of the analysis.
