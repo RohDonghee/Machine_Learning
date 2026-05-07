@@ -10,6 +10,7 @@ Regression is a supervised learning task aimed at predicting a continuous variab
     *   **$x$ (Inputs):** Independent, predictor, or explanatory variables.
 *   **Residual ($\epsilon$):** The difference between the true observed value ($y$) and the predicted value ($\hat{y}$). Formula: $\epsilon = y - \hat{y}$.
 *   **Ordinary Least Squares (OLS):** The standard training methodology used to find the optimal parameters ($\beta$) by minimizing the Sum of Squared Errors (SSE).
+※ OLS is the fundamental mathematical optimization algorithm used to train standard linear regression models. Its goal is to draw the "best-fitting line" through your data points
 
 ## Two Different Scopes of Regression
 Regression models use the same mathematical foundation but can be categorized based on the primary objective of the analysis.
@@ -30,7 +31,7 @@ To properly evaluate a regression model, the dataset must be partitioned, and di
 
 ## Performance Evaluation Measures
 Various quantitative metrics are used to measure prediction accuracy and the model's explanatory power.
-
+※ The choice of evaluation metric heavily depends on the specific situation and the business context. There is no single "perfect" metric; instead, you choose the one that aligns best with what you care about most in your predictions
 | Metric | Formula / Description | Key Characteristics |
 | :--- | :--- | :--- |
 | **MSE (Mean Squared Error)** | $\frac{1}{n} \sum e_i^2$ | Heavily penalizes larger errors due to the squaring of residuals. |
